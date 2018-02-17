@@ -25,6 +25,7 @@ try:
 except:
     print("usage show_related.py [artist-name]")
 
+
 playlist = GetPlaylists()
 playlist.print_playlists('spotify:user:22huxyo2nybfbc776hlw2ndbi')
 
