@@ -10,7 +10,8 @@ results = sp.search(q='weezer', limit=20)
 for i, t in enumerate(results['tracks']['items']):
     print (' ', i, t['name'])
 
-result = sp.search(q='artist:' + 'open mike eagle', type='artist')
+
+result = sp.search(q='artist:' + '', type='artist')
 try:
     name = result['artists']['items'][0]['name']
     uri = result['artists']['items'][0]['uri']
