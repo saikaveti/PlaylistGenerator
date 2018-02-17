@@ -8,6 +8,7 @@ def click():
     userEntry = username.get()
     passEntry = password.get()
     print(userEntry)
+    print(passEntry)
 
 def printU():
     print(userEntry)

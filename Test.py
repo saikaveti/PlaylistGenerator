@@ -12,6 +12,7 @@ for i, t in enumerate(results['tracks']['items']):
 
 
 result = sp.search(q='artist:' + '', type='artist')
+
 try:
     name = result['artists']['items'][0]['name']
     uri = result['artists']['items'][0]['uri']
